@@ -1,0 +1,40 @@
+#foot{
+  background-color: #656565;
+}
+#foot-outer-container ul{
+  display: flex;
+}
+#foot h3{
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+#foot-outer-container ul {
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+}
+#foot-outer-container ul li{
+list-style: none;
+padding: 0 2rem 0 2rem;
+cursor: pointer;
+}
+#inner-one{
+  display: flex; 
+  flex-direction: row;
+display: inline;
+margin: auto;
+}
+.follow-us-on{
+  color: #f6f6f6;
+  font-size: 2.5rem;
+}
+#inner-two{
+  margin-bottom: 0;
+}
+#inner-two p{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+}

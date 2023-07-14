@@ -1,0 +1,72 @@
+#head {
+  background: #656565; 
+display: flex;
+justify-content: space-between;
+height: 50px;
+
+}
+#head h2{
+  line-height: 0.5rem;
+  color:#FFFFFF;
+  margin-left: 2rem;
+}
+#head ul{
+  display: flex;
+  margin: 0.4rem 0 0 0;
+  
+}
+#head ul li{
+  list-style: none;
+  margin: 0 1.5rem 0 1.5rem;
+  
+}
+#head ul li a{
+  color:#FFFFFF;
+  text-decoration: none;
+
+  
+}
+/* #head  form input{
+  background: #f6f6f6;
+  border: none;
+  height: 2.5rem;
+  padding: 0 1rem 0 1rem;
+
+  border-radius: 3px;
+  cursor: pointer;
+ font-weight: bolder;
+
+} */
+.header-button{
+  border: none;
+  cursor: pointer;
+  border-top: 1px solid #abacad;
+   background: #bdb9bd;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d1d1d1), to(#bdb9bd));
+   background: -webkit-linear-gradient(top, #d1d1d1, #bdb9bd);
+   background: -moz-linear-gradient(top, #d1d1d1, #bdb9bd);
+   background: -ms-linear-gradient(top, #d1d1d1, #bdb9bd);
+   background: -o-linear-gradient(top, #d1d1d1, #bdb9bd);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 13px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+   .header-button:hover {
+   border-top-color: #a6a3a6;
+   background: #a6a3a6;
+   color: #000000;
+   }
+   .header-button:active {
+   border-top-color: #f2f2f2;
+   background: #f2f2f2;
+   }

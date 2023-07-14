@@ -1,0 +1,103 @@
+#sign-in-outer-container{
+    height: 26rem;
+    padding-top: 7rem;
+}
+#sign-in-outer-container h1{
+    text-align: center;
+  margin-bottom: 0.5rem;
+}
+.label-left{
+    display: block;
+    width: 14rem;
+border-bottom: 1px solid silver;
+}
+form{
+    
+    display: flex;
+    flex-direction: column;  
+align-items: center;
+  
+}
+
+input[type=email], input[type=password]{
+    width: 15rem;
+    border-radius: 16px;
+    border: none;
+    background: #e5e5e5;
+    height: 2.3rem;
+    padding: 10px;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.sign-in-button {
+    cursor: pointer;
+    margin: 1rem 0 0 0;
+    width: 10rem;
+    border: none;
+    border-top: 1px solid #646769;
+    background: #9ba7b0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#454a4d), to(#9ba7b0));
+    background: -webkit-linear-gradient(top, #454a4d, #9ba7b0);
+    background: -moz-linear-gradient(top, #454a4d, #9ba7b0);
+    background: -ms-linear-gradient(top, #454a4d, #9ba7b0);
+    background: -o-linear-gradient(top, #454a4d, #9ba7b0);
+    padding: 9.5px 19px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 13px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    }
+ .sign-in-button:hover {
+    border-top-color: #656869;
+    background: #656869;
+    color: #f2f2f2;
+    }
+    .sign-in-button:active {
+    border-top-color: #a3b1ba;
+    background: #a3b1ba;
+    }
+    #sign-up-google{
+        cursor: pointer;
+        border: none;
+        width: 12rem;
+   border-top: 1px solid #1f7fbf;
+   background: #36a1ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#5100ff), to(#36a1ff));
+   background: -webkit-linear-gradient(top, #5100ff, #36a1ff);
+   background: -moz-linear-gradient(top, #5100ff, #36a1ff);
+   background: -ms-linear-gradient(top, #5100ff, #36a1ff);
+   background: -o-linear-gradient(top, #5100ff, #36a1ff);
+   padding: 10px 20px;
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+   #sign-up-google:hover {
+    border-top-color: #176feb;
+    background: #176feb;
+   color: #f7f7f7;
+  
+   }
+   #sign-up-google:active {
+    border-top-color: #3e7dab;
+    background: #3e7dab;
+   }
+    
+
